@@ -290,13 +290,12 @@ function single_byte_xor_cipher($input,
  * Esempio:
  *
  * Se
- * $input = "cazzinculo"
- * $key = "madonna"
+ * $input = "abcdefg"
+ * $key = "hil"
  *
  * la codifica sarà:
- * c xor m, a xor a, z xor d, z xor o, 
- * i xor n, n xor n, c xor a, u xor m,
- * l xor a, o xor d
+ * a xor h, b xor i, c xor l, d xor h, 
+ * e xor i, f xor l, g xor h
  *
  * @param string $input La stringa da codificare
  * @param string $key chiave di codifica
